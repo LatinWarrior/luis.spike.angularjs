@@ -1,0 +1,14 @@
+D:\Luis.Spike.AngularJs\Luis.Spike.AngularJs\bin\Luis.Spike.AngularJs.dll.config
+D:\Luis.Spike.AngularJs\Luis.Spike.AngularJs\bin\Luis.Spike.AngularJs.dll
+D:\Luis.Spike.AngularJs\Luis.Spike.AngularJs\bin\Luis.Spike.AngularJs.pdb
+D:\Luis.Spike.AngularJs\Luis.Spike.AngularJs\bin\Newtonsoft.Json.dll
+D:\Luis.Spike.AngularJs\Luis.Spike.AngularJs\bin\System.Net.Http.Formatting.dll
+D:\Luis.Spike.AngularJs\Luis.Spike.AngularJs\bin\System.Web.Http.dll
+D:\Luis.Spike.AngularJs\Luis.Spike.AngularJs\bin\System.Web.Http.WebHost.dll
+D:\Luis.Spike.AngularJs\Luis.Spike.AngularJs\bin\Newtonsoft.Json.xml
+D:\Luis.Spike.AngularJs\Luis.Spike.AngularJs\bin\System.Net.Http.Formatting.xml
+D:\Luis.Spike.AngularJs\Luis.Spike.AngularJs\bin\System.Web.Http.xml
+D:\Luis.Spike.AngularJs\Luis.Spike.AngularJs\bin\System.Web.Http.WebHost.xml
+D:\Luis.Spike.AngularJs\Luis.Spike.AngularJs\obj\Debug\Luis.Spike.AngularJs.csprojResolveAssemblyReference.cache
+D:\Luis.Spike.AngularJs\Luis.Spike.AngularJs\obj\Debug\Luis.Spike.AngularJs.dll
+D:\Luis.Spike.AngularJs\Luis.Spike.AngularJs\obj\Debug\Luis.Spike.AngularJs.pdb
