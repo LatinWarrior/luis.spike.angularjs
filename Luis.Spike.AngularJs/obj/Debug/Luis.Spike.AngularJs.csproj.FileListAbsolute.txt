@@ -12,3 +12,10 @@ D:\Luis.Spike.AngularJs\Luis.Spike.AngularJs\bin\System.Web.Http.WebHost.xml
 D:\Luis.Spike.AngularJs\Luis.Spike.AngularJs\obj\Debug\Luis.Spike.AngularJs.csprojResolveAssemblyReference.cache
 D:\Luis.Spike.AngularJs\Luis.Spike.AngularJs\obj\Debug\Luis.Spike.AngularJs.dll
 D:\Luis.Spike.AngularJs\Luis.Spike.AngularJs\obj\Debug\Luis.Spike.AngularJs.pdb
+D:\Luis.Spike.AngularJs\Luis.Spike.AngularJs\bin\EntityFramework.dll
+D:\Luis.Spike.AngularJs\Luis.Spike.AngularJs\bin\EntityFramework.SqlServer.dll
+D:\Luis.Spike.AngularJs\Luis.Spike.AngularJs\bin\EntityFramework.xml
+D:\Luis.Spike.AngularJs\Luis.Spike.AngularJs\bin\EntityFramework.SqlServer.xml
+D:\Luis.Spike.AngularJs\Luis.Spike.AngularJs\bin\Faker.NET4.dll
+D:\Luis.Spike.AngularJs\Luis.Spike.AngularJs\bin\FizzWare.NBuilder.dll
+D:\Luis.Spike.AngularJs\Luis.Spike.AngularJs\bin\de-DE\Faker.NET4.resources.dll
