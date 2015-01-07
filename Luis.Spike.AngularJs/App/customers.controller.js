@@ -24,7 +24,7 @@ customersController.controller('customersController', [
         //        });
         //    });
 
-        customers = customersService.query();
+        customers = customersService.getData();
 
         console.log(customers);
 
@@ -41,7 +41,7 @@ customersController.controller('customersController', [
 
 customersController.factory('customersService', function () {
     return {
-        query: function () {
+        getData: function () {
             var customers = [
                 { firstName: 'John Doe', lastName: 'Doe', Id: '1' },
                 { firstName: 'Mary', lastName: 'Homes', Id: '2' },
