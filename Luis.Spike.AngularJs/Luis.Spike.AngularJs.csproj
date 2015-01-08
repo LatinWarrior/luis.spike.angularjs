@@ -903,6 +903,7 @@
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\DemoContext.cs" />
     <Compile Include="Models\DemoInitializer.cs" />
+    <Compile Include="Models\PagedResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

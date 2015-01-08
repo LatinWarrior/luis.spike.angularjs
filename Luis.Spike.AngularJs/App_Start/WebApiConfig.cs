@@ -7,6 +7,10 @@ namespace Luis.Spike.AngularJs
     {
         public static void Register(HttpConfiguration config)
         {
+            // Configue JSON formatter.
+            var jsonFormatter = GlobalConfiguration.Configuration.Formatters.JsonFormatter;
+            jsonFormatter.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+
             // Web API configuration and services
 
             // Web API routes
@@ -17,9 +21,7 @@ namespace Luis.Spike.AngularJs
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
-
-            var jsonFormatter = GlobalConfiguration.Configuration.Formatters.JsonFormatter;
-            jsonFormatter.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+            
         }
     }
 }

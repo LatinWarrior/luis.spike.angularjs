@@ -38,18 +38,30 @@ namespace Luis.Spike.AngularJs.Controllers
         //    return Ok(jsonResult);            
         //}
 
-        [ResponseType(typeof(Customer[]))]
-        public IHttpActionResult GetCustomers()
+        [ResponseType(typeof(PagedResult<Customer>))]
+        public IHttpActionResult GetCustomers(int pageNo = 1, int pageSize = 10)
         {
             var jsonSerializerSettings = new JsonSerializerSettings
             {
                 ContractResolver = new CamelCasePropertyNamesContractResolver()
-
             };
 
-            var data = _demoContext.Customers.ToArray();
+            // Determine the number of records to skip
+            var skip = (pageNo - 1) * pageSize;
 
-            var jsonResult = JsonConvert.SerializeObject(data, Formatting.None, jsonSerializerSettings);
+            // Get the total number of records
+            var totalItemCount = _demoContext.Customers.Count();            
+
+            // Retrieve the customers for the specified page
+            var customers = _demoContext.Customers
+                .OrderBy(c => c.LastName)
+                .Skip(skip)
+                .Take(pageSize)
+                .ToList();
+
+            var pagedResult = new PagedResult<Customer>(customers, pageNo, pageSize, totalItemCount);
+
+            var jsonResult = JsonConvert.SerializeObject(pagedResult, Formatting.None, jsonSerializerSettings);
 
             return Ok(jsonResult);
         }
