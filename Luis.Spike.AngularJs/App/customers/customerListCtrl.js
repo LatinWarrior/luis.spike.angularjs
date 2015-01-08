@@ -7,8 +7,13 @@
         .controller("CustomerListCtrl", ["customerResource", CustomerListCtrl]);
 
     function CustomerListCtrl(customerResource) {
-        // when using the controller as syntax, the model is defined in this variable.
+        // when using the controller as syntax, the model is defined in the "this" variable.
         var vm = this;
+
+        var main = {
+            page: 1,
+            take: 15
+        };
 
         customerResource.query(function(data) {
             vm.customers = data;
